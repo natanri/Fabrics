@@ -7,4 +7,12 @@ router.get('/', fabricsControllers.getAll);
 
 router.get('/:id', fabricsControllers.getSingle);
 
+//Adding others endpoints
+
+router.post('/', fabricsControllers.createFabric);
+
+router.put('/:id', fabricsControllers.updateFabric);
+
+router.delete('/:id', fabricsControllers.deleteFabric);
+
 module.exports = router;
