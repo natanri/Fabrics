@@ -7,8 +7,7 @@
   },
   "host": "fabrics.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http",
+  "schemes": [  
     "https"
   ],
   "paths": {
